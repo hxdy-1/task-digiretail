@@ -1,0 +1,31 @@
+.username {
+	font-size: 2rem;
+}
+
+.general-text a {
+	text-decoration: none;
+}
+
+.general-text a:hover {
+	text-decoration: underline;
+}
+
+.email {
+	color: white;
+	text-decoration: none;
+}
+
+.detail a {
+	font-size: 1rem;
+	font-weight: bolder;
+	color: whitesmoke;
+}
+
+.delete-btn {
+	padding: 1em 2em;
+	cursor: pointer;
+}
+
+.delete-btn svg {
+	font-size: 2rem;
+}

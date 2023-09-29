@@ -1,0 +1,49 @@
+.header {
+	max-width: 70rem;
+	margin: auto;
+	padding: 2rem;
+}
+
+.header nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.header h1 {
+	font-size: 2rem;
+}
+
+.header h1 + div {
+	position: relative;
+}
+
+.header h1 + form {
+	position: relative;
+}
+
+.header button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 1em 1.2em;
+	font-weight: bolder;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	border-radius: 50%;
+}
+
+.header input {
+	border: none;
+	outline: none;
+
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	padding: 1em 2em;
+	border-radius: 30px;
+}
+
+.header input + button {
+	position: absolute;
+	left: 80%;
+	/* left: 55%; */
+}
